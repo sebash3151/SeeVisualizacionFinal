@@ -13,13 +13,13 @@ public class StaticBool : MonoBehaviour
         if (pasable)
         {
             Blink = true;
-            pasable = false;
+            //pasable = false;
         }
     }
 
     private void Update()
     {
-        if (!pasable)
+        /*if (!pasable)
         {
             timer += Time.deltaTime;
             if (timer >= 1.5f)
@@ -27,6 +27,6 @@ public class StaticBool : MonoBehaviour
                 pasable = true;
                 timer = 0f;
             }
-        }
+        }*/
     }
 }

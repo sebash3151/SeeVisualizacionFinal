@@ -5,7 +5,7 @@ using UnityEngine;
 public class ChangeScreen : MonoBehaviour
 {
     private bool here = false;
-    private GameObject currentPage;
+    public static GameObject currentPage;
     [SerializeField] GameObject nextPage;
     Animator anim;
     private StaticBool blink;
@@ -26,6 +26,8 @@ public class ChangeScreen : MonoBehaviour
             here = true;
         }
     }
+
+   
 
     private void Update()
     {
