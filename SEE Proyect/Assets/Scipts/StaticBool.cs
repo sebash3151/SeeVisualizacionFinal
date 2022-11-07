@@ -10,11 +10,12 @@ public class StaticBool : MonoBehaviour
 
     public void Blinkear()
     {
-        if (pasable)
+        Blink = true;
+        /*if (pasable)
         {
-            Blink = true;
+            
             //pasable = false;
-        }
+        }*/
     }
 
     private void Update()

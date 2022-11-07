@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -256,6 +256,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 888083835}
+  audio: {fileID: 0}
 --- !u!114 &18389736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -588,6 +589,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 961022553}
+  audio: {fileID: 0}
 --- !u!114 &39973084
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -632,13 +634,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 39973083}
+        m_TargetAssemblyTypeName: ChangeScreen, Assembly-CSharp
+        m_MethodName: Pasar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -807,6 +809,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 888083835}
+  audio: {fileID: 0}
 --- !u!114 &57501046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1422,6 +1425,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 889561964}
+  audio: {fileID: 0}
 --- !u!1 &104110298
 GameObject:
   m_ObjectHideFlags: 0
@@ -1505,6 +1509,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 477895353}
+  audio: {fileID: 0}
 --- !u!114 &109368590
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1764,6 +1769,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 888083835}
+  audio: {fileID: 0}
 --- !u!114 &129671444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2043,6 +2049,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 1365356822}
+  audio: {fileID: 0}
 --- !u!114 &133223998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2302,6 +2309,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 1742530107}
+  audio: {fileID: 0}
 --- !u!114 &135123041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2780,6 +2788,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 73321123}
+  audio: {fileID: 0}
 --- !u!114 &161410603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3157,6 +3166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 888083835}
+  audio: {fileID: 0}
 --- !u!114 &186931650
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3520,6 +3530,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 1721114063}
+  audio: {fileID: 0}
 --- !u!114 &221361476
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3704,6 +3715,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 477895353}
+  audio: {fileID: 0}
 --- !u!114 &229323628
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3945,6 +3957,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 960383655}
+  audio: {fileID: 0}
 --- !u!1 &236400093
 GameObject:
   m_ObjectHideFlags: 0
@@ -4486,6 +4499,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 888083835}
+  audio: {fileID: 0}
 --- !u!114 &256598750
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4958,6 +4972,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 362071021}
+  audio: {fileID: 0}
 --- !u!1 &280130026
 GameObject:
   m_ObjectHideFlags: 0
@@ -5667,6 +5682,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 477895353}
+  audio: {fileID: 0}
 --- !u!114 &306647139
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5945,6 +5961,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 888083835}
+  audio: {fileID: 0}
 --- !u!114 &316139711
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6186,6 +6203,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 723391213}
+  audio: {fileID: 0}
 --- !u!1 &324590408
 GameObject:
   m_ObjectHideFlags: 0
@@ -6371,6 +6389,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 1614576045}
+  audio: {fileID: 0}
 --- !u!114 &333178306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6638,6 +6657,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 888083835}
+  audio: {fileID: 0}
 --- !u!114 &345341725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7156,6 +7176,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 888083835}
+  audio: {fileID: 0}
 --- !u!114 &358188739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7340,6 +7361,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 888083835}
+  audio: {fileID: 0}
 --- !u!114 &394670269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7617,6 +7639,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 888083835}
+  audio: {fileID: 0}
 --- !u!1 &417939978
 GameObject:
   m_ObjectHideFlags: 0
@@ -7669,6 +7692,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 888083835}
+  audio: {fileID: 0}
 --- !u!114 &417939981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8014,6 +8038,133 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 426792547}
   m_CullTransparentMesh: 1
+--- !u!1 &427758531
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 427758533}
+  - component: {fileID: 427758532}
+  m_Layer: 0
+  m_Name: BlinkSfx
+  m_TagString: sound
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &427758532
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 427758531}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 9857538f713b1bb40b2035d1e2448b32, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &427758533
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 427758531}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &428895358
 GameObject:
   m_ObjectHideFlags: 0
@@ -8066,6 +8217,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 888083835}
+  audio: {fileID: 0}
 --- !u!114 &428895361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8213,6 +8365,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 1433285255}
+  audio: {fileID: 0}
 --- !u!114 &430163224
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8736,6 +8889,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 227832384}
+  audio: {fileID: 0}
 --- !u!1 &447658906
 GameObject:
   m_ObjectHideFlags: 0
@@ -9197,6 +9351,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 31819397}
+  audio: {fileID: 0}
 --- !u!1 &466953268
 GameObject:
   m_ObjectHideFlags: 0
@@ -9249,6 +9404,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 888083835}
+  audio: {fileID: 0}
 --- !u!114 &466953271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9681,6 +9837,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 888083835}
+  audio: {fileID: 0}
 --- !u!114 &484127566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9902,6 +10059,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 477895353}
+  audio: {fileID: 0}
 --- !u!114 &489910230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10124,6 +10282,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 792626725}
+  audio: {fileID: 0}
 --- !u!114 &500227696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10270,6 +10429,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 888083835}
+  audio: {fileID: 0}
 --- !u!114 &510852037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10417,6 +10577,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 113883794}
+  audio: {fileID: 0}
 --- !u!114 &518001033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10876,6 +11037,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 480425722}
+  audio: {fileID: 0}
 --- !u!114 &542650882
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11022,6 +11184,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 477895353}
+  audio: {fileID: 0}
 --- !u!114 &544196482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11336,6 +11499,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 888083835}
+  audio: {fileID: 0}
 --- !u!114 &549661348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11957,6 +12121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 477895353}
+  audio: {fileID: 0}
 --- !u!114 &632096643
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12198,6 +12363,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 423322041}
+  audio: {fileID: 0}
 --- !u!1 &646095789
 GameObject:
   m_ObjectHideFlags: 0
@@ -12412,6 +12578,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 477895353}
+  audio: {fileID: 0}
 --- !u!114 &662179851
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12803,6 +12970,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 1685933824}
+  audio: {fileID: 0}
 --- !u!114 &669439601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12911,6 +13079,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 477895353}
+  audio: {fileID: 0}
 --- !u!114 &670721187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13226,6 +13395,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 1854404097}
+  audio: {fileID: 0}
 --- !u!114 &704568002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13546,6 +13716,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 888083835}
+  audio: {fileID: 0}
 --- !u!114 &720992415
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13762,6 +13933,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 477895353}
+  audio: {fileID: 0}
 --- !u!114 &723770448
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14206,6 +14378,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 227832384}
+  audio: {fileID: 0}
 --- !u!1 &760979063
 GameObject:
   m_ObjectHideFlags: 0
@@ -14259,6 +14432,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 1365356822}
+  audio: {fileID: 0}
 --- !u!114 &760979066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14405,6 +14579,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 341789018}
+  audio: {fileID: 0}
 --- !u!114 &762766124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14589,6 +14764,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 1848620952}
+  audio: {fileID: 0}
 --- !u!114 &770889928
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14633,13 +14809,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 770889927}
+        m_TargetAssemblyTypeName: ChangeScreen, Assembly-CSharp
+        m_MethodName: Pasar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -14772,6 +14948,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 477895353}
+  audio: {fileID: 0}
 --- !u!114 &777687704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14919,6 +15096,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 1681815266}
+  audio: {fileID: 0}
 --- !u!114 &780798996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15279,6 +15457,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 44139160}
+  audio: {fileID: 0}
 --- !u!1 &793953811
 GameObject:
   m_ObjectHideFlags: 0
@@ -15331,6 +15510,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 341789018}
+  audio: {fileID: 0}
 --- !u!114 &793953814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15478,6 +15658,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 1365356822}
+  audio: {fileID: 0}
 --- !u!114 &795201897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15640,6 +15821,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 1721114063}
+  audio: {fileID: 0}
 --- !u!114 &796266890
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15818,6 +16000,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 792626725}
+  audio: {fileID: 0}
 --- !u!114 &810394137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15964,6 +16147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 888083835}
+  audio: {fileID: 0}
 --- !u!114 &830368560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16267,6 +16451,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 113883794}
+  audio: {fileID: 0}
 --- !u!114 &843223672
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16413,6 +16598,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 888083835}
+  audio: {fileID: 0}
 --- !u!114 &866442137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16634,6 +16820,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 477895353}
+  audio: {fileID: 0}
 --- !u!114 &880657540
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16875,6 +17062,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 31819397}
+  audio: {fileID: 0}
 --- !u!1 &888083835
 GameObject:
   m_ObjectHideFlags: 0
@@ -17000,6 +17188,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 1433285255}
+  audio: {fileID: 0}
 --- !u!114 &892262375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17707,6 +17896,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 61004691}
+  audio: {fileID: 0}
 --- !u!114 &935216494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18306,6 +18496,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 396217000}
+  audio: {fileID: 0}
 --- !u!114 &990075782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18490,6 +18681,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 1585372073}
+  audio: {fileID: 0}
 --- !u!114 &992225013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18534,13 +18726,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 992225012}
+        m_TargetAssemblyTypeName: ChangeScreen, Assembly-CSharp
+        m_MethodName: Pasar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -18599,6 +18791,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 792626725}
+  audio: {fileID: 0}
 --- !u!114 &992990533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19128,6 +19321,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 362071021}
+  audio: {fileID: 0}
 --- !u!1 &1028424946
 GameObject:
   m_ObjectHideFlags: 0
@@ -19420,6 +19614,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 44139160}
+  audio: {fileID: 0}
 --- !u!114 &1034659056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19528,6 +19723,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 341789018}
+  audio: {fileID: 0}
 --- !u!114 &1037031434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19782,6 +19978,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 113883794}
+  audio: {fileID: 0}
 --- !u!114 &1048194994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19943,6 +20140,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 341789018}
+  audio: {fileID: 0}
 --- !u!114 &1049139059
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20089,6 +20287,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 477895353}
+  audio: {fileID: 0}
 --- !u!114 &1051650820
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20273,6 +20472,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 1763075956}
+  audio: {fileID: 0}
 --- !u!114 &1054718812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20382,6 +20582,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 1721114063}
+  audio: {fileID: 0}
 --- !u!114 &1056909927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20529,6 +20730,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 1854404097}
+  audio: {fileID: 0}
 --- !u!114 &1066518428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20675,6 +20877,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 888083835}
+  audio: {fileID: 0}
 --- !u!114 &1069527674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20953,6 +21156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 888083835}
+  audio: {fileID: 0}
 --- !u!114 &1101904107
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21550,6 +21754,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 113883794}
+  audio: {fileID: 0}
 --- !u!114 &1118977844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21697,6 +21902,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 694943491}
+  audio: {fileID: 0}
 --- !u!114 &1133168544
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21843,6 +22049,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 888083835}
+  audio: {fileID: 0}
 --- !u!114 &1135246033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22371,6 +22578,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 341789018}
+  audio: {fileID: 0}
 --- !u!1 &1161404207
 GameObject:
   m_ObjectHideFlags: 0
@@ -22423,6 +22631,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 888083835}
+  audio: {fileID: 0}
 --- !u!114 &1161404210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22644,6 +22853,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 888083835}
+  audio: {fileID: 0}
 --- !u!114 &1165026900
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22959,6 +23169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 341789018}
+  audio: {fileID: 0}
 --- !u!1 &1170511453
 GameObject:
   m_ObjectHideFlags: 0
@@ -23011,6 +23222,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 341789018}
+  audio: {fileID: 0}
 --- !u!114 &1170511456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23264,6 +23476,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 73321123}
+  audio: {fileID: 0}
 --- !u!114 &1188018099
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23410,6 +23623,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 341789018}
+  audio: {fileID: 0}
 --- !u!114 &1189587027
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23637,6 +23851,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 341789018}
+  audio: {fileID: 0}
 --- !u!114 &1192560408
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23783,6 +23998,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 477895353}
+  audio: {fileID: 0}
 --- !u!114 &1208780626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24249,6 +24465,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 227832384}
+  audio: {fileID: 0}
 --- !u!1 &1220595436
 GameObject:
   m_ObjectHideFlags: 0
@@ -24301,6 +24518,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 888083835}
+  audio: {fileID: 0}
 --- !u!114 &1220595439
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24786,6 +25004,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 888083835}
+  audio: {fileID: 0}
 --- !u!114 &1234915997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24932,6 +25151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 477895353}
+  audio: {fileID: 0}
 --- !u!114 &1236396828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25078,6 +25298,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 477895353}
+  audio: {fileID: 0}
 --- !u!114 &1236740488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28325,6 +28546,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 362071021}
+  audio: {fileID: 0}
 --- !u!1 &1295128987
 GameObject:
   m_ObjectHideFlags: 0
@@ -28458,6 +28680,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 888083835}
+  audio: {fileID: 0}
 --- !u!114 &1301079166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28685,6 +28908,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 888083835}
+  audio: {fileID: 0}
 --- !u!114 &1307318531
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28907,6 +29131,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 1433285255}
+  audio: {fileID: 0}
 --- !u!114 &1313323310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29757,6 +29982,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 423322041}
+  audio: {fileID: 0}
 --- !u!1 &1350334739
 GameObject:
   m_ObjectHideFlags: 0
@@ -29904,6 +30130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 423322041}
+  audio: {fileID: 0}
 --- !u!1 &1353381417
 GameObject:
   m_ObjectHideFlags: 0
@@ -29994,6 +30221,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 31060092}
+  audio: {fileID: 0}
 --- !u!114 &1353381422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30428,6 +30656,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 888083835}
+  audio: {fileID: 0}
 --- !u!114 &1395938498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30749,6 +30978,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 477895353}
+  audio: {fileID: 0}
 --- !u!1 &1433285255
 GameObject:
   m_ObjectHideFlags: 0
@@ -30839,6 +31069,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 341789018}
+  audio: {fileID: 0}
 --- !u!114 &1442505818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30986,6 +31217,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 1681815266}
+  audio: {fileID: 0}
 --- !u!114 &1452109718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31228,6 +31460,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 477895353}
+  audio: {fileID: 0}
 --- !u!114 &1463342116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31449,6 +31682,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 477895353}
+  audio: {fileID: 0}
 --- !u!114 &1468727356
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32160,6 +32394,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 227832384}
+  audio: {fileID: 0}
 --- !u!114 &1511345466
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32269,6 +32504,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 1365356822}
+  audio: {fileID: 0}
 --- !u!114 &1521706860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32491,6 +32727,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 73321123}
+  audio: {fileID: 0}
 --- !u!114 &1539219425
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32637,6 +32874,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 888083835}
+  audio: {fileID: 0}
 --- !u!114 &1540445257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35608,6 +35846,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 216196329}
+  audio: {fileID: 0}
 --- !u!114 &1547734913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35652,13 +35891,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1547734912}
+        m_TargetAssemblyTypeName: ChangeScreen, Assembly-CSharp
+        m_MethodName: Pasar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -35829,6 +36068,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 958685870}
+  audio: {fileID: 0}
 --- !u!114 &1555091188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35937,6 +36177,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 888083835}
+  audio: {fileID: 0}
 --- !u!114 &1566431423
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36482,6 +36723,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 341789018}
+  audio: {fileID: 0}
 --- !u!114 &1592937578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37319,6 +37561,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 1102140952}
+  audio: {fileID: 0}
 --- !u!1 &1638290783
 GameObject:
   m_ObjectHideFlags: 0
@@ -37465,6 +37708,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 477895353}
+  audio: {fileID: 0}
 --- !u!1 &1645430891
 GameObject:
   m_ObjectHideFlags: 0
@@ -37517,6 +37761,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 888083835}
+  audio: {fileID: 0}
 --- !u!114 &1645430894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37711,6 +37956,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 396217000}
+  audio: {fileID: 0}
 --- !u!114 &1651980371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37938,6 +38184,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 888083835}
+  audio: {fileID: 0}
 --- !u!114 &1658720273
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38235,6 +38482,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 1614576045}
+  audio: {fileID: 0}
 --- !u!114 &1680768548
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38491,6 +38739,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 2005127481}
+  audio: {fileID: 0}
 --- !u!114 &1698529699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38535,13 +38784,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1698529698}
+        m_TargetAssemblyTypeName: ChangeScreen, Assembly-CSharp
+        m_MethodName: Pasar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -38599,6 +38848,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 477895353}
+  audio: {fileID: 0}
 --- !u!114 &1705076530
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38776,6 +39026,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 477895353}
+  audio: {fileID: 0}
 --- !u!114 &1714260473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38960,6 +39211,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 472986202}
+  audio: {fileID: 0}
 --- !u!114 &1719305679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39187,6 +39439,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 888083835}
+  audio: {fileID: 0}
 --- !u!114 &1725774044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39333,6 +39586,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 888083835}
+  audio: {fileID: 0}
 --- !u!114 &1726612428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39803,6 +40057,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 888083835}
+  audio: {fileID: 0}
 --- !u!114 &1749976638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40100,6 +40355,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 1614576045}
+  audio: {fileID: 0}
 --- !u!114 &1753868362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40506,6 +40762,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 477895353}
+  audio: {fileID: 0}
 --- !u!114 &1767459484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40808,6 +41065,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 477895353}
+  audio: {fileID: 0}
 --- !u!114 &1775239697
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41399,6 +41657,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 1742530107}
+  audio: {fileID: 0}
 --- !u!114 &1803256179
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41776,6 +42035,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 888083835}
+  audio: {fileID: 0}
 --- !u!114 &1810661287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41988,6 +42248,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 341789018}
+  audio: {fileID: 0}
 --- !u!114 &1838818857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42215,6 +42476,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 888083835}
+  audio: {fileID: 0}
 --- !u!114 &1846274426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42678,6 +42940,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 1854779865}
+  audio: {fileID: 0}
 --- !u!114 &1854985276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42825,6 +43088,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 546979188}
+  audio: {fileID: 0}
 --- !u!114 &1855801696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43009,6 +43273,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 960383655}
+  audio: {fileID: 0}
 --- !u!114 &1859457458
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43117,6 +43382,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 477895353}
+  audio: {fileID: 0}
 --- !u!114 &1859465402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43432,6 +43698,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 888083835}
+  audio: {fileID: 0}
 --- !u!1 &1873254858
 GameObject:
   m_ObjectHideFlags: 0
@@ -43484,6 +43751,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 888083835}
+  audio: {fileID: 0}
 --- !u!114 &1873254861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44195,6 +44463,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 1681815266}
+  audio: {fileID: 0}
 --- !u!114 &1911986283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44341,6 +44610,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 477895353}
+  audio: {fileID: 0}
 --- !u!114 &1915442569
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44582,6 +44852,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 31819397}
+  audio: {fileID: 0}
 --- !u!1 &1938559459
 GameObject:
   m_ObjectHideFlags: 0
@@ -44796,6 +45067,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 477895353}
+  audio: {fileID: 0}
 --- !u!114 &1947655658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44943,6 +45215,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 480425722}
+  audio: {fileID: 0}
 --- !u!114 &1948596990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45089,6 +45362,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 477895353}
+  audio: {fileID: 0}
 --- !u!114 &1957711309
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45348,6 +45622,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 1854779865}
+  audio: {fileID: 0}
 --- !u!114 &1964390392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45392,13 +45667,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1964390391}
+        m_TargetAssemblyTypeName: ChangeScreen, Assembly-CSharp
+        m_MethodName: Pasar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -45829,6 +46104,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 1854404097}
+  audio: {fileID: 0}
 --- !u!114 &2027027831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46338,6 +46614,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 477895353}
+  audio: {fileID: 0}
 --- !u!114 &2047210081
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46603,6 +46880,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 1995588787}
+  audio: {fileID: 0}
 --- !u!114 &2057446869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46647,13 +46925,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 2057446868}
+        m_TargetAssemblyTypeName: ChangeScreen, Assembly-CSharp
+        m_MethodName: Pasar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -46781,6 +47059,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 903353114}
+  audio: {fileID: 0}
 --- !u!114 &2088463000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47272,6 +47551,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 958685870}
+  audio: {fileID: 0}
 --- !u!1 &2102714493
 GameObject:
   m_ObjectHideFlags: 0
@@ -47438,6 +47718,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 1585372073}
+  audio: {fileID: 0}
 --- !u!114 &2121203551
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47824,6 +48105,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 341789018}
+  audio: {fileID: 0}
 --- !u!114 &2139054441
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47970,6 +48252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPage: {fileID: 888083835}
+  audio: {fileID: 0}
 --- !u!114 &2140680257
 MonoBehaviour:
   m_ObjectHideFlags: 0
